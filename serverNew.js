@@ -17,7 +17,7 @@ const UserSchema = new mongoose.Schema({
 });
 
 //4- Create a Model (this talks to the DB)
-const User = mongoose.model('User', UserSchema);
+const User = mongoose.model('User', UserSchema); // Registering the UserSchema into Model using .model()
 
 //5- API route to INSERT data into MongoDB
 app.post("/users", async (req, res) => {

@@ -1,0 +1,4 @@
+> Driver is needed.
+    - To connect MongoDB using Express a Driver is Essential.
+    - Yes whether with using 'mongoose' or without using one it is mandatory.
+    - In case of without using 'mongoose' the driver provided by mongodb is used.
