@@ -2,3 +2,5 @@
     - To connect MongoDB using Express a Driver is Essential.
     - Yes whether with using 'mongoose' or without using one it is mandatory.
     - In case of without using 'mongoose' the driver provided by mongodb is used.
+> ICDMMCB 
+  + Import pckges, Create app, Definine port, Middleware, MongoDB connection, Calling D.B, Basic route
