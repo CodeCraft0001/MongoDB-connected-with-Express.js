@@ -6,7 +6,8 @@ const app = express();
 app.use(express.json());
 
 //2- Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/mydatabase')
+                // MnogDB Atlas Connection String ('mongodb://localhost:27017/mydatabase')
+mongoose.connect('mongodb+srv://Mongo:suhail123@cluster0.ioavy.mongodb.net/?appName=Cluster0/mydatabase')
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error(err));
     
